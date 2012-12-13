@@ -33,7 +33,6 @@ entry to quit this view.
   :KEYWORDS: functional programming; lisp
   :END:
 
-
 * Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp
   :PROPERTIES:
   :TITLE:    Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp
@@ -48,3 +47,15 @@ entry to quit this view.
   :KEYWORDS: artificial intelligence; lisp
   :END:
 
+
+* Les Miserables
+  :PROPERTIES:
+  :TITLE:    Les Miserables
+  :AUTHOR:   Victor Hugo
+  :BTYPE:    book
+  :YEAR:     1862
+  :OWNER:    Tom W
+  :LOCATION: Tom W
+  :FREE:     nil
+  :KEYWORDS: literature
+  :END:
