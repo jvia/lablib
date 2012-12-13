@@ -19,7 +19,7 @@ entry to quit this view.
   :KEYWORDS: machine learning; pattern recognition
   :END:
 
-* Pattern recognition and machine learning
+* Let Over Lambda: 50 years of Lisp
   :PROPERTIES:
   :TITLE:    Let Over Lambda: 50 years of Lisp
   :AUTHOR:   Doug Hoyte
@@ -31,5 +31,20 @@ entry to quit this view.
   :LOCATION: Tom W
   :FREE:     true
   :KEYWORDS: functional programming; lisp
+  :END:
+
+
+* Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp
+  :PROPERTIES:
+  :TITLE:    Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp
+  :AUTHOR:   Peter Norvig
+  :BTYPE:    book
+  :CUSTOM_ID: Norvig1992Paradigms
+  :YEAR:     1992
+  :PUBLISHER: Morgan Kaufmann
+  :OWNER:    Tom W
+  :LOCATION: Tom W
+  :FREE:     true
+  :KEYWORDS: artificial intelligence; lisp
   :END:
 
