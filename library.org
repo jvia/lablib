@@ -7,15 +7,29 @@ entry to quit this view.
 
 * Pattern recognition and machine learning
   :PROPERTIES:
-  :TITLE:     Pattern recognition and machine learning
-  :AUTHOR:    Christopher M. Bishop
-  :BTYPE:     book
+  :TITLE:    Pattern recognition and machine learning
+  :AUTHOR:   Christopher M. Bishop
+  :BTYPE:    book
   :CUSTOM_ID: Bishop2006:pattern
-  :YEAR:      2006
+  :YEAR:     2006
   :PUBLISHER: Springer New York
-  :OWNER:     Jeremiah
-  :LOCATION:  Matt
-  :FREE:      nil
-  :KEYWORDS:  machine learning; pattern recognition
+  :OWNER:    Jeremiah
+  :LOCATION: Matt
+  :FREE:     nil
+  :KEYWORDS: machine learning; pattern recognition
+  :END:
+
+* Pattern recognition and machine learning
+  :PROPERTIES:
+  :TITLE:    Let Over Lambda: 50 years of Lisp
+  :AUTHOR:   Doug Hoyte
+  :BTYPE:    book
+  :CUSTOM_ID: Hoyte2008:Lambda
+  :YEAR:     2008
+  :PUBLISHER: nil
+  :OWNER:    Tom W
+  :LOCATION: Tom W
+  :FREE:     true
+  :KEYWORDS: functional programming; lisp
   :END:
 
