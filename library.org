@@ -47,7 +47,6 @@ entry to quit this view.
   :KEYWORDS: artificial intelligence; lisp
   :END:
 
-
 * Les Miserables
   :PROPERTIES:
   :TITLE:    Les Miserables
