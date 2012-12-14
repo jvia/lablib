@@ -1,6 +1,7 @@
 #+title:     Library
 #+startup:   odd indent hidestars
 #+columns:   %TITLE %AUTHOR %LOCATION %FREE
+#+export_exclude_tags: noexport
 
 To see the library in tabular form, type =C-c C-x C-c=. Type =q= on an
 entry to quit this view.
@@ -18,7 +19,6 @@ entry to quit this view.
   :FREE:     nil
   :KEYWORDS: machine learning; pattern recognition
   :END:
-
 * Let Over Lambda: 50 years of Lisp
   :PROPERTIES:
   :TITLE:    Let Over Lambda: 50 years of Lisp
@@ -29,10 +29,9 @@ entry to quit this view.
   :PUBLISHER: nil
   :OWNER:    Tom W
   :LOCATION: Tom W
-  :FREE:     true
+  :FREE:     t
   :KEYWORDS: functional programming; lisp
   :END:
-
 * Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp
   :PROPERTIES:
   :TITLE:    Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp
@@ -43,11 +42,9 @@ entry to quit this view.
   :PUBLISHER: Morgan Kaufmann
   :OWNER:    Tom W
   :LOCATION: Tom W
-  :FREE:     true
+  :FREE:     t
   :KEYWORDS: artificial intelligence; lisp
   :END:
-
-
 * Les Miserables
   :PROPERTIES:
   :TITLE:    Les Miserables
@@ -55,7 +52,20 @@ entry to quit this view.
   :BTYPE:    book
   :YEAR:     1862
   :OWNER:    Tom W
-  :LOCATION: Tom W
-  :FREE:     nil
+  :LOCATION: nil
+  :FREE:     t
   :KEYWORDS: literature
   :END:
+* CODE                                                             :noexport:
+
+#+begin_src emacs-lisp
+  (defun lablib-checkout ()
+    (interactive)
+    (org-set-property "LOCATION" (user-full-name))
+    (org-set-property "FREE"     "nil"))
+  
+  (defun lablib-return ()
+    (interactive)
+    (org-set-property "LOCATION" "nil")
+    (org-set-property "FREE"     "t"))
+#+end_src
