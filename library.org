@@ -74,6 +74,22 @@ entry to quit this view.
     (interactive)
     (org-set-property "LOCATION" "nil")
     (org-set-property "FREE"     "t"))
+  
+  (defun lablib-add-book ()
+    (interactive)
+    (let ((title    (read-string "Title: "))
+          (author   (read-string "Author: "))
+          (year     (read-string "Year: "))
+          (location (read-string "Location: "))
+          (free     (read-string "Free: "))
+          (keywords (read-string "Keywords (comma separated): ")))
+      (insert "* " title)
+      (org-set-property "TITLE"    title)
+      (org-set-property "AUTHOR"   author)
+      (org-set-property "YEAR"     year)
+      (org-set-property "LOCATION" location)
+      (org-set-property "FREE"     free)
+      (org-set-property "KEYWORDS" keywords)))
 #+end_src
 
 
