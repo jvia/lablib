@@ -1,11 +1,17 @@
 #+title:     Library
-#+startup:   odd indent hidestars
-#+columns:   %TITLE %AUTHOR %LOCATION %FREE
-#+export_exclude_tags: noexport
 
 To see the library in tabular form, type =C-c C-x C-c=. Type =q= on an
 entry to quit this view.
 
+* Don't Get Too Comfortable
+:PROPERTIES:
+:TITLE:    Don't Get Too Comfortable
+:AUTHOR:   David Rakoff
+:YEAR:     2006
+:LOCATION: Jeremiah
+:FREE:     t
+:KEYWORDS: essays
+:END:
 * Pattern recognition and machine learning
   :PROPERTIES:
   :TITLE:    Pattern recognition and machine learning
@@ -69,3 +75,8 @@ entry to quit this view.
     (org-set-property "LOCATION" "nil")
     (org-set-property "FREE"     "t"))
 #+end_src
+
+
+#+startup:   odd indent hidestars
+#+columns:   %TITLE %AUTHOR %10LOCATION %5FREE
+#+export_exclude_tags: noexport
